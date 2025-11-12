@@ -1,0 +1,55 @@
+.Navbar_Wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 30;
+    width: 100%;
+    height: 10vh;
+}
+.Inner_div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 30px;
+    width: 100%;
+}
+.Logo_img{
+    width: 36px;
+}
+.Nabar_div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    top: 50px;
+}
+.Right_Side{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap:16px;
+    right: 0;
+}
+.Links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 8px;
+}
+.Buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 8px;
+    right: 0;
+}
+.mobile_div{
+    width: 33vw;
+}
+.mobile_link{
+ font-size: 8px;
+}

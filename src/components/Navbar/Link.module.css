@@ -1,0 +1,14 @@
+.Selected_page{
+    color: var(--primary-500);
+    transition: 500ms;
+}
+.Selected_page:hover{
+    color: var(--primary-300);
+}
+.Anchor_link{
+    color: var(--gray-500);
+    transition: 500ms;
+}
+.Anchor_link:hover{
+    color: var(--primary-300);
+}
