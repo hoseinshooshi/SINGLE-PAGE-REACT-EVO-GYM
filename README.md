@@ -1,69 +1,39 @@
-# React + TypeScript + Vite
+# 💪 Fitness Landing Page (React + TypeScript + Tailwind + Framer Motion)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern **single-page application** built with **React**, **TypeScript**, **Tailwind CSS**, **Framer Motion**, and **React Hook Form**.  
+The project delivers a smooth, interactive, and fully responsive user experience — featuring elegant animations, modular components, and client-side form validation.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- ⚡ **React + TypeScript** for reliable and scalable development  
+- 🎨 **Tailwind CSS** for fast, modern, and fully responsive UI design  
+- 🎞️ **Framer Motion** for smooth animations and engaging transitions  
+- 🧾 **React Hook Form** for powerful form validation and easy integration  
+- 🧱 Modular and reusable component architecture  
+- 📱 Optimized for both desktop and mobile devices  
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 🧩 Tech Stack
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+| Category | Technology |
+|-----------|-------------|
+| Framework | React (with TypeScript) |
+| Styling | Tailwind CSS |
+| Animation | Framer Motion |
+| Form Handling | React Hook Form |
+| Deployment | Vercel / Netlify (optional) |
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🖼️ Overview
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+This project showcases a **"Fitness Landing Page"** style layout, allowing users to explore content sections such as:
+- **Home / Hero section**
+- **Benefits / Features**
+- **Our Classes / Gallery**
+- **Contact Us Form**
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Each section is built with scroll-triggered animations powered by Framer Motion, providing a dynamic and smooth navigation experience. The contact form is integrated with `react-hook-form` for validation and can be connected to FormSubmit or any backend endpoint.
