@@ -3,7 +3,7 @@ import { HomeModernIcon, UserGroupIcon, AcademicCapIcon } from "@heroicons/react
 import {motion} from 'framer-motion'
 import HText from "@/shared/HText"
 import BenefitCard from "./BenefitCard"
-import { BenefitTypes } from "@/shared/types"
+import type { BenefitTypes } from "@/shared/types";
 import ActionButton from "@/shared/ActionButton"
 import BenefitsPageGraphic from '@/assets/BenefitsPageGraphic.png'
 type Props = {
