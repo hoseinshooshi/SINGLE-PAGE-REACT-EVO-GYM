@@ -1,9 +1,9 @@
 import { SelectedPage } from "@/shared/types"
 import AnchorLink from "react-anchor-link-smooth-scroll";
-
+import type { ReactNode } from "react";
 type Props = {
     setSelectedPage: (value:SelectedPage) => void;
-    icon:JSX.Element;
+    icon: ReactNode;
     title: string; 
     desc: string;
 }

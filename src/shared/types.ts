@@ -3,6 +3,8 @@ import type { ReactNode } from "react";
 export const SelectedPage = {
   Home: "home",
   Benefits: "benefits",
+  OurClasses: "ourclasses",
+  ContactUS: "contactus",
 } as const;
 
 export type SelectedPage =
