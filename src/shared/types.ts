@@ -1,15 +1,18 @@
+import type { ReactNode } from "react";
 
-export enum SelectedPage { 
-  Home = "home", 
-  Benefits = "benefits", 
-  OurClasses = "ourclasses", 
-  ContactUS = "contactus"
-};
+export const SelectedPage = {
+  Home: "home",
+  Benefits: "benefits",
+} as const;
 
-export interface BenefitTypes{
-  icon: JSX.Element; 
-  title:string; 
-  desc:string
+export type SelectedPage =
+  (typeof SelectedPage)[keyof typeof SelectedPage];
+
+
+export interface BenefitTypes {
+  icon: ReactNode;
+  title: string;
+  desc: string;
 }
 export interface ClassTypes {
   name: string, 
