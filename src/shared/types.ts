@@ -12,7 +12,7 @@ export type SelectedPage =
 export interface BenefitTypes {
   icon: ReactNode;
   title: string;
-  description: string;
+  desc: string;
 }
 export interface ClassTypes {
   name: string, 
